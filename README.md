@@ -130,8 +130,7 @@ out/target/product/blossom/DerpFest-15-Community-Stable-blossom-20241225.zip
 Use the following command to pull the built ROM from the build server:
 
 ```
-crave pull out/target/product/blossom/DerpFest-15-Community-Stable-blossom-20241225.zip
-
+crave pull out/target/product/blossom/Lineage-15-Community-Stable-chime-20241225.zip
 ```
 
 ---
@@ -143,7 +142,7 @@ To upload the built ROM, you can use Telegram or PixelDrain.
 ### Upload via Telegram (2GB max limit):
 
 ```
-telegram-upload out/target/product/blossom/DerpFest-15-Community-Stable-blossom-20241225.zip
+telegram-upload out/target/product/blossom/Lineage-15-Community-Stable-chime-20241225.zip
 ```
 
 ### Upload via PixelDrain:
