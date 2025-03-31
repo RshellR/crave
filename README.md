@@ -84,7 +84,7 @@ After synchronization, the device tree must be adapted to match the ROM. This in
 
 ## Step 5: Test the Build Environment
 
-Since Crave.io does not fully support ROM compilation due to hardware limitations, use the following command in the SSH session to verify the setup:
+Since Crave follows a queue based system you cannot that build in the server but you can check everything working fine by using the build command of the custom ROM. For example:
 
 ```
 source build/envsetup.sh
@@ -116,6 +116,8 @@ brunch chime
 "
 ```
 
+Note: The brunch command change according to the ROM so change in accordingly.
+
 Wait for the build process to complete.
 
 
@@ -126,7 +128,7 @@ Wait for the build process to complete.
 Once the build succeeds, locate the generated ROM file. Navigate to the log and scroll down to find a path similar to:
 
 ```
-out/target/product/blossom/DerpFest-15-Community-Stable-blossom-20241225.zip
+out/target/product/blossom/Lineage-15-Community-Stable-chime-20241225.zip
 ```
 
 Use the following command to pull the built ROM from the build server:
