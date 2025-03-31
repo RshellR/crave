@@ -67,7 +67,7 @@ repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
 
 ---
 
-## Step 4: Synchronize the Source
+## Step 4: Synchronize the Source and adaptation
 
 Use the Crave.io synchronization script to sync both the ROM source and the local manifest:
 
@@ -76,6 +76,8 @@ Use the Crave.io synchronization script to sync both the ROM source and the loca
 ```
 
 Synchronization time varies based on the ROM source size.
+
+After synchronisation now we want to adapted the device tree according to the ROM. For example, changing the name of file named lineage_codename.mk to derp_codename.mk (for derpfest), changing the value of lineage into other names according to ROM. For guidance you can ck
 
 
 ---
