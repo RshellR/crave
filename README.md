@@ -77,7 +77,7 @@ Use the Crave.io synchronization script to sync both the ROM source and the loca
 
 Synchronization time varies based on the ROM source size.
 
-After synchronisation now we want to adapted the device tree according to the ROM. For example, changing the name of file named lineage_codename.mk to derp_codename.mk (for derpfest), changing the value of lineage into other names according to ROM. For guidance you can ck
+After synchronization, the device tree must be adapted to match the ROM. This involves renaming files, such as changing `lineage_<codename>.mk` to `customrom_<codename>.mk` for any needed custom ROM, and replacing `lineage` references with the ROM's name in configuration files. You can check the device tree of any officially supported device in the custom ROM's GitHub repository to see the necessary changes, such as modifying `Device.mk`, `Customrom_<codename>.mk`, and other files. Use these references as guidance to properly adapt your device tree.
 
 
 ---
